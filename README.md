@@ -2,7 +2,7 @@
 
 A modern web application that aggregates Vietnamese finance and policy news from multiple RSS feeds, similar to Techmeme. Features real-time updates, AI-powered summarization, and a clean, responsive interface.
 
-## ✨ Features
+## Features
 
 - **Real-time RSS Aggregation**: Fetches news from 6 major Vietnamese financial news sources
 - **Auto-refresh**: Updates every 10 minutes automatically
@@ -221,40 +221,3 @@ Change the update interval in `app.py`:
 # Wait 10 minutes before next update
 time.sleep(600)  # 600 seconds = 10 minutes
 ```
-
-### Customizing the UI
-
-Edit `templates/index.html` to modify the appearance and layout.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **RSS feeds not loading**
-
-   - Check your internet connection
-   - Verify RSS feed URLs are accessible
-   - Check the console for error messages
-
-2. **AI summarization not working**
-
-   - Verify your OpenAI API key is correct
-   - Check if you have sufficient API credits
-   - The app will fall back to rule-based summarization
-
-3. **Deployment issues**
-   - Ensure all dependencies are in `requirements.txt`
-   - Check environment variables are set correctly
-   - Verify the deployment platform supports Python/Flask
-
-### Debug Mode
-
-Run with debug mode for detailed error messages:
-
-```bash
-export FLASK_DEBUG=True
-python app.py
-```
-
-## 📄 License
-
