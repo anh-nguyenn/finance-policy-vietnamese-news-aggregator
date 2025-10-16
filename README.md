@@ -258,16 +258,3 @@ python app.py
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-If you encounter any issues or have questions, please open an issue on GitHub.
-
----
-
-**Built for the Vietnamese financial news community**
